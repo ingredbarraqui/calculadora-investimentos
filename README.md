@@ -24,12 +24,14 @@ O simulador permite que o usuário insira o valor do investimento inicial, contr
 ## Contato
 Se você tiver alguma dúvida ou sugestão, entre em contato:
 
-Nome: Ingred Ferreira
-Email: ingred.vferreira@gmail.com
-LinkedIn: [text](https://www.linkedin.com/in/ingred-ferreira-570a4b199/)
+Nome: Ingred Ferreira,
+Email: ingred.vferreira@gmail.com,
+LinkedIn: [LinkedIn](https://www.linkedin.com/in/ingred-ferreira-570a4b199/)
 
 ## Instalação
 git clone https://github.com/\[SEU\_USUARIO\_GIT\]/calculadora-investimentos.git
+```
+
 cd calculadora-investimentos
 ```
 npm install
