@@ -1,0 +1,105 @@
+@import url('./colors.css');
+
+.container{
+  max-width: 1140px;
+  margin: auto;
+}
+
+
+html, body, div, span, h1, h2, h3, p, img, form, label, article, footer, header, section, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+  font-family: "Inter", sans-serif;
+}
+
+h1{
+	font-size: 3rem;
+}
+
+h2{
+	font-size: 2.5rem;
+}
+
+h3{
+	font-size: 2rem;
+}
+
+hr{
+	height: 5px;
+	margin: 3rem 0;
+	background-color: var(--ciano);
+	display: block;
+}
+
+.inputtext {
+	width: -webkit-fill-available;
+	border-radius: 10px;
+	background: var(--branco);
+	border: 1.39px solid var(--cinzaClaro);
+	font-size: 1.25rem;
+	padding: 1.688rem 12px;
+}
+
+.label{
+	font-size: 1.375rem;
+	color: var(--secundaria);
+	padding-bottom: 10px;
+	display: block;
+}
+
+.d-flex{
+	display: flex;
+	gap: 12px;
+}
+
+.error-msg {
+	font-size: 14px;
+	color: var(--vermelho);
+	display: block;
+	padding-top: 10px;
+}
+
+.card-cinza{
+  background-color: var(--cinza);
+  border-radius: 1rem;
+  padding: 3.5rem;
+  margin: 5rem 0;
+}
+
+/* Mobile */
+@media only screen and (max-width: 540px) {
+	h1{
+		font-size: 1.625rem;
+	}
+
+	h3, h2{
+		font-size: 1.25rem;
+	}
+
+  .container{
+		max-width: 320px;
+		margin: auto;
+	}
+
+	.label{
+		font-size: 1rem;
+	}
+
+	.inputtext {
+		font-size: 1rem;
+		padding: 1.688rem 12px;
+	}
+
+	.d-flex{
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.card-cinza{
+		padding: 1.5rem;
+    margin: 2rem 0;
+	}
+}
+
