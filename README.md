@@ -30,9 +30,11 @@ LinkedIn: [LinkedIn](https://www.linkedin.com/in/ingred-ferreira-570a4b199/)
 
 ## Instalação
 git clone https://github.com/\[SEU\_USUARIO\_GIT\]/calculadora-investimentos.git
+
+```
+cd calculadora-investimentos
 ```
 
-cd calculadora-investimentos
 ```
 npm install
 ```
