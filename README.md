@@ -1,5 +1,5 @@
 # Vue 3 + Vite
-# Calculadora de Investimentos - Grupo Primo
+# Calculadora de Investimentos 
 
 Este projeto é uma aplicação web desenvolvida com Vue 3 que permite aos usuários simular investimentos com base na Taxa Selic e no Fundo Arca. O objetivo é fornecer uma comparação simples e intuitiva dos rendimentos ao longo do tempo.
 
